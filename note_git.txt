@@ -92,3 +92,19 @@ COMMANDE BASE TERMINAL :
 
 
 *****  BRANCHING :
+
+ Le branchement est une méthode pour passer dans une nouvelle direction lors
+ de la création d'une nouvelle fonctionnalité, et ne combiner cette nouvelle 
+ fonctionnalité qu'avec la partie principale de votre code, ou la branche 
+ principale, une fois que vous avez terminé.
+
+ --->    git branch
+ Affiche le branch sur lequel vous travaillez
+
+ --->    git checkout -b <new branch name>
+ Cree un new branch
+
+ --->    git checkout <branch name>
+ Basculez entre les branches 
+
+ --->    git merge <other branch name>
