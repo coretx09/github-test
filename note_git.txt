@@ -56,11 +56,14 @@ COMMANDE BASE TERMINAL :
     git add .  :  pour suivre tous les fichiers dans ce répertoire
 
 
-**** COMMIT:
+****  COMMIT:
+
  Un commit est comme un instantané de tous les fichiers de votre projet à un moment donné.
  Valider ces modifications :
 
  ( ---> git add <new file name> )
+ Si vous modifiez un fichier après avoir exécuté git add, sans valider  vous devez exécuter git add
+ a nouveau pour mettre en scène la dernière version du fichier:
 
  --->    git commit -m "some message"
  Message décrit les modifications que vous venez d'effectuer.
@@ -77,3 +80,15 @@ COMMANDE BASE TERMINAL :
 
  --->    git pull
  Extraire toutes les modifications distantes de votre référentiel.
+
+ --->    git log 
+ Donne un historique de tous vos commits sur ce référentiel. 
+
+ --->    git reset --hard <commit>
+ Rétablit votre code exactement comme il était après la validation spécifiée
+
+ --->    git reset --hard origin/master
+ Rétablit votre code à la version actuellement stockée en ligne sur Github.
+
+
+*****  BRANCHING :
